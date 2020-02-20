@@ -5,7 +5,8 @@ import org.springframework.boot.web.servlet.server.ConfigurableServletWebServerF
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.stereotype.Component;
 
-@Component
+//如果没有配置文件，手动修改启动端口
+//@Component
 public class DemoBootServlet extends SpringBootServletInitializer implements WebServerFactoryCustomizer<ConfigurableServletWebServerFactory> {
 
     @Override
